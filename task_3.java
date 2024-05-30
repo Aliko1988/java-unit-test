@@ -31,6 +31,7 @@ public class CheckIsAdultTest {
         boolean isAdult = program.checkIsAdult(age);
         String message = String.format("Ожидается, что для возраста %d результат будет %b", age, result);
         assertEquals(message, result, isAdult);
+
     }
 }
 
